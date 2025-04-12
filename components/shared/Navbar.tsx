@@ -84,13 +84,13 @@ function Navbar() {
             </li>
             <li>
               <Link
-                href="/services"
+                href="/donate"
                 className={`block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ${
-                  isActive('/services')
+                  isActive('/donate')
                     ? 'text-primary font-bold'
                     : 'text-gray-900'
                 }`}>
-                Services
+                Donate
               </Link>
             </li>
             <li>

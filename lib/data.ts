@@ -43,6 +43,39 @@ export const cardData = [
   },
 ];
 
+export const paymentData = [
+  {
+    id: 1,
+    image: company1,
+    cedititle: 'Cedi A/C No.',
+    usdtitle: 'USD A/C No.',
+    swifttitle: 'Swift Code',
+    cedi: 1441000703293,
+    dollar: 3441000703294,
+    swift: ":ECOCGHAC",
+  },
+  {
+    id: 2,
+    image: company1,
+    cedititle: 'Cedi A/C No.',
+    usdtitle: 'USD A/C No.',
+    swifttitle: 'Swift Code',
+    cedi: 1441000703293,
+    dollar: 3441000703294,
+    swift: ":ECOCGHAC",
+  },
+  {
+    id: 3,
+    image: company1,
+    cedititle: 'MoMo No.',
+    usdtitle: 'Merchant I.D.',
+    swifttitle: '',
+    cedi: 1441000703293,
+    dollar: 3441000703294,
+    swift: "",
+  },
+];
+
 export const partnersData = [
   {
     id: 1,
