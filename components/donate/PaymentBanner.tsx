@@ -4,7 +4,7 @@ import { paymentData } from '@/lib/data'
 
  function PaymentBanner() {
   return (
-    <div className="px-4 sm:px-6 lg:px-8">
+    <div >
     <p className='text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 lg:mb-5'>Ways to donate</p>
     <p className='mb-8 sm:mb-12 lg:mb-16 text-lg sm:text-xl'>
       I have found that among its other benefits, giving liberates the soul of the giver.
