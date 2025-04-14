@@ -9,7 +9,7 @@ function Footer() {
 <footer className="bg-primary text-white rounded-lg shadow-sm dark:bg-primary m-4">
     <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
-            <a href="/home" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+            <a href="#" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
             <div className='w-44'>
             <Image src={logo} className="object-contain" alt="Flowbite Logo" />
             </div>
@@ -31,7 +31,7 @@ function Footer() {
             </ul>
         </div>
         <hr className="my-6 border-white sm:mx-auto dark:border-white lg:my-8" />
-        <span className="block text-md text-white sm:text-center dark:text-white">© 2025 <a href="/home" className="hover:underline">Otumfuo Foundation</a>. All Rights Reserved.</span>
+        <span className="block text-md text-white sm:text-center dark:text-white">© 2025 <a href="#" className="hover:underline">Otumfuo Foundation</a>. All Rights Reserved.</span>
     </div>
 </footer>
 
