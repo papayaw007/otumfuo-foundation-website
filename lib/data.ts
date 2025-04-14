@@ -160,9 +160,9 @@ export const homeData = [
 export const thematicData = [
   {
     id: 1,
-    title: 'Water & Sanitation',
+    title: 'Education',
     description:
-      'Providing potable water in rural areas to help eradicate water-borne disease to foster healthier communities.',
+      'Providing equal learning opportunities to support education of children from pre-school age through to adolescence.',
     image: about,
   },
   {
@@ -174,16 +174,16 @@ export const thematicData = [
   },
   {
     id: 3,
-    title: 'Culture & Heritage',
+    title: 'Water & Sanitation',
     description:
-      'Promoting and preserving the culture and natural heritage of the Asante Kingdom for development in tourism.',
+      'Providing potable water in rural areas to help eradicate water-borne disease to foster healthier communities.',
     image: about,
   },
   {
     id: 4,
-    title: 'Education',
+    title: 'Culture & Heritage',
     description:
-      'Providing equal learning opportunities to support education of children from pre-school age through to adolescence.',
+      'Promoting and preserving the culture and natural heritage of the Asante Kingdom for development in tourism.',
     image: about,
   },
   {

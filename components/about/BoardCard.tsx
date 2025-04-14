@@ -10,7 +10,7 @@ interface Props {
 
 function BoardCard({ image, name, role }: Props) {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col transition-transform duration-300 ease-in-out hover:scale-105">
       <div className="rounded-2xl overflow-hidden">
         <img
           src={image}
