@@ -4,20 +4,13 @@ import transformation from '@/public/transformation.svg';
 import commitment from '@/public/commitment.svg';
 import mission from '@/public/mission.svg';
 import vision from '@/public/vision.svg';
-import otumfuo from '@/public/otumfuo.jpg';
-import julia from '@/public/lady-julia.jpg';
-import oheneba from '@/public/prof-oheneba.jpg';
-import andrew from '@/public/andrew.jpg';
-import kwaku from '@/public/kwaku.jpg';
-import margaret from '@/public/margaret.jpg';
-import kwame from '@/public/kwame.jpg';
-import akua from '@/public/akua.jpg';
-import sandy from '@/public/sandy.jpg';
-import akuoku from '@/public/nana-akuoku.jpg';
-import barbara from '@/public/lady-barbara.jpg';
-import elaine from '@/public/elaine.jpg';
 import about from '@/public/about.jpg';
 import company1 from '@/public/ecom.png';
+import facebook from '@/public/facebook.svg';
+import instagram from '@/public/instagram.svg';
+import youtube from '@/public/youtube.svg';
+import linkedin from '@/public/linkedin.svg';
+import x from '@/public/x.svg';
 
 export const coreValues = [
   { src: transformation, label: 'Transformation' },
@@ -52,7 +45,7 @@ export const paymentData = [
     swifttitle: 'Swift Code',
     cedi: 1441000703293,
     dollar: 3441000703294,
-    swift: ":ECOCGHAC",
+    swift: ':ECOCGHAC',
   },
   {
     id: 2,
@@ -62,7 +55,7 @@ export const paymentData = [
     swifttitle: 'Swift Code',
     cedi: 1441000703293,
     dollar: 3441000703294,
-    swift: ":ECOCGHAC",
+    swift: ':ECOCGHAC',
   },
   {
     id: 3,
@@ -72,7 +65,7 @@ export const paymentData = [
     swifttitle: '',
     cedi: 1441000703293,
     dollar: 3441000703294,
-    swift: "",
+    swift: '',
   },
 ];
 
@@ -137,107 +130,103 @@ export const partnersData = [
     image: company1,
     alt: 'company-1',
   },
-  
-  
 ];
 
 export const homeData = [
   {
     id: 1,
-    title: '25TH ANNIVERSARY: OTUMFUO OSEI TUTU II FOUNDATION FUNDRAISING GALA.',
-    description: 'In 25 Years, we have improved the lives of Ghanaians by implementing the ideals, values and visions of its patron, the Asantehene and the Asante Kingdom, using this medium to accelerate the transformation of Africa.',
-    image: about
+    title:
+      '25TH ANNIVERSARY: OTUMFUO OSEI TUTU II FOUNDATION FUNDRAISING GALA.',
+    description:
+      'In 25 Years, we have improved the lives of Ghanaians by implementing the ideals, values and visions of its patron, the Asantehene and the Asante Kingdom, using this medium to accelerate the transformation of Africa.',
+    image: about,
   },
   {
     id: 2,
     title: 'Welcome to the Otumfuo Osei Tutu II Foundation',
-    description: 'The Otumfuo Osei Tutu II Foundation seeks to improve the lives of Ghanaians by implementing the ideals, values and visions of its patron, the Asantehene and the Asante Kingdom, using this medium to accelerate the transformation of Africa.',
-    image: about
+    description:
+      'The Otumfuo Osei Tutu II Foundation seeks to improve the lives of Ghanaians by implementing the ideals, values and visions of its patron, the Asantehene and the Asante Kingdom, using this medium to accelerate the transformation of Africa.',
+    image: about,
   },
   {
     id: 3,
     title: 'LADY JULIA’S MENTORSHIP MASTERCLASS',
-    description: 'Lady Julia Osei Tutu has commemorated the 2025 International Women’s Day with the Lady Julia’s Mentorship Masterclass, under the theme: “Accelerate Action: Together we can forge women’s equality”, at the Great Hall of KNUST on March 7, 2025.',
-    image: about
+    description:
+      'Lady Julia Osei Tutu has commemorated the 2025 International Women’s Day with the Lady Julia’s Mentorship Masterclass, under the theme: “Accelerate Action: Together we can forge women’s equality”, at the Great Hall of KNUST on March 7, 2025.',
+    image: about,
   },
-  
-]
+];
 
 export const thematicData = [
   {
     id: 1,
     title: 'Water & Sanitation',
-    description: 'Providing potable water in rural areas to help eradicate water-borne disease to foster healthier communities.',
-    image: about
+    description:
+      'Providing potable water in rural areas to help eradicate water-borne disease to foster healthier communities.',
+    image: about,
   },
   {
     id: 2,
     title: 'Health',
-    description: 'Providing sustainable health care services to protect vulnerable populations in Ghana from infectious disease.',
-    image: about
+    description:
+      'Providing sustainable health care services to protect vulnerable populations in Ghana from infectious disease.',
+    image: about,
   },
   {
     id: 3,
     title: 'Culture & Heritage',
-    description: 'Promoting and preserving the culture and natural heritage of the Asante Kingdom for development in tourism.',
-    image: about
+    description:
+      'Promoting and preserving the culture and natural heritage of the Asante Kingdom for development in tourism.',
+    image: about,
   },
   {
     id: 4,
     title: 'Education',
-    description: 'Providing equal learning opportunities to support education of children from pre-school age through to adolescence.',
-    image: about
+    description:
+      'Providing equal learning opportunities to support education of children from pre-school age through to adolescence.',
+    image: about,
   },
   {
     id: 5,
     title: 'Entrepreneurship',
-    description: 'Rallying partners in business, academia, and the wider society to drive a unique rejuvenation of Ghanaian entrepreneurship.',
-    image: about
+    description:
+      'Rallying partners in business, academia, and the wider society to drive a unique rejuvenation of Ghanaian entrepreneurship.',
+    image: about,
   },
-  
-]
-
+];
 
 export const statsData = [
   {
     id: 1,
     number: 25,
     description: 'Years of Impact',
-
   },
   {
     id: 2,
     number: 9,
     description: 'Life-Changing Projects',
-
   },
   {
     id: 3,
     number: 20,
     description: 'Volunteers',
-
   },
   {
     id: 4,
     number: 200,
     description: 'Student Beneficiaries',
-
   },
   {
     id: 5,
     number: 12,
     description: 'Beneficiary Schools',
-
   },
   {
     id: 6,
     number: 8,
     description: 'Region',
-
   },
-  
-]
-
+];
 
 export const accordionItems = [
   {
@@ -277,77 +266,48 @@ export const accordionItems = [
   },
 ];
 
-export const boardOfTrustees = [
+export const socials = [
   {
-    id: 1,
-    name: 'Otumfuo Osei Tutu II',
-    role: 'Patron',
-    image: otumfuo,
+    name: 'Facebook',
+    img: facebook,
+    url: 'https://www.facebook.com/Otumfuofdn/',
   },
   {
-    id: 2,
-    name: 'Lady Julia Osei Tutu',
-    role: 'Head of Board of Trustees',
-    image: julia,
+    name: 'Instagram',
+    img: instagram,
+    url: 'https://instagram.com/otumfuofdn?igshid=NDRkN2NkYzU=',
   },
   {
-    id: 3,
-    name: 'Prof. Oheneba Boachie-Adjei',
-    role: 'Board Chairman',
-    image: oheneba,
+    name: 'Youtube',
+    img: youtube,
+    url: 'https://youtube.com/channel/UCWApAPrduu1E5BXmRGDu8kQ',
   },
   {
-    id: 4,
-    name: 'Mr. Andrew Asamoah',
-    role: 'Board Trustee',
-    image: andrew,
+    name: 'LinkedIn',
+    img: linkedin,
+    url: 'https://www.linkedin.com/company/otumfuo-osei-tutu-ii-foundation/',
   },
   {
-    id: 5,
-    name: 'Dr. Kwaku Mensa-Bonsu',
-    role: 'Board Trustee',
-    image: kwaku,
+    name: 'X',
+    img: x,
+    url: 'https://twitter.com/otumfuofdn?s=11&t=IhjRHVHsMWf13X2ckbk4vA',
+  },
+];
+
+export const contactDetails = [
+  {
+    number: 1,
+    title: 'Meet Us',
+    description: 'Suite# 307, Cocobod Jubilee House, Adum-Kumasi.',
   },
   {
-    id: 6,
-    name: 'Mrs. Margaret Boateng Sekyere',
-    role: 'Board Trustee',
-    image: margaret,
+    number: 2,
+    title: 'Call Us',
+    description: '+233 32 200 5892',
   },
   {
-    id: 7,
-    name: 'Dr. Kwame Bawuah-Edusei',
-    role: 'Board Trustee',
-    image: kwame,
-  },
-  {
-    id: 8,
-    name: 'Rev. Akua Ofori-Boateng',
-    role: 'Board Trustee',
-    image: akua,
-  },
-  {
-    id: 9,
-    name: 'Dr. Sandy Williams',
-    role: 'Board Trustee',
-    image: sandy,
-  },
-  {
-    id: 10,
-    name: 'Nana Akuoku Boateng',
-    role: 'Board Trustee',
-    image: akuoku,
-  },
-  {
-    id: 11,
-    name: 'Lady Barbara Acheampong',
-    role: 'Board Trustee',
-    image: barbara,
-  },
-  {
-    id: 12,
-    name: 'Elaine Oppong-Pepprah',
-    role: 'Administrator',
-    image: elaine,
+    number: 3,
+    title: 'Email Us',
+    description: 'info@otumfuofoundation.org.gh',
   },
 ];

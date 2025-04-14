@@ -18,7 +18,7 @@ function Navbar() {
 
   return (
     <nav className="bg-white shadow-sm sticky top-0 z-50">
-      <div className="max-w-screen-xl flex items-center justify-between mx-auto p-4">
+      <div className="max-w-7xl flex items-center justify-between mx-auto py-4 px-8 xl:px-0">
         <Link href="/" className="flex items-center">
           <div className="relative h-12 w-36">
             <Image
@@ -58,7 +58,7 @@ function Navbar() {
             isMenuOpen ? 'block' : 'hidden'
           } w-full md:block md:w-auto absolute md:static top-16 left-0 right-0 md:top-auto`}
           id="navbar-default">
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-white md:flex-row md:space-x-8 md:mt-0 md:border-0 shadow-md md:shadow-none">
+          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-white md:flex-row md:items-center md:space-x-8 md:mt-0 md:border-0 shadow-md md:shadow-none">
             <li>
               <Link
                 href="/"
@@ -84,17 +84,6 @@ function Navbar() {
             </li>
             <li>
               <Link
-                href="/donate"
-                className={`block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ${
-                  isActive('/donate')
-                    ? 'text-primary font-bold'
-                    : 'text-gray-900'
-                }`}>
-                Donate
-              </Link>
-            </li>
-            <li>
-              <Link
                 href="/stories"
                 className={`block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ${
                   isActive('/stories')
@@ -113,6 +102,17 @@ function Navbar() {
                     : 'text-gray-900'
                 }`}>
                 Contact
+              </Link>
+            </li>
+            <li className="bg-primary px-6 py-2 rounded-md cursor-pointer hover:bg-primary/90 hover:scale-105 transition-all">
+              <Link
+                href="/donate"
+                className={`block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent text-white md:border-0 md:p-0 ${
+                  isActive('/contact')
+                    ? 'text-primary font-bold'
+                    : 'text-gray-900'
+                }`}>
+                Donate
               </Link>
             </li>
           </ul>

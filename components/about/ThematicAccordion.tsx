@@ -10,7 +10,7 @@ import SectionHeading from '../shared/heading';
 
 function ThematicAreas() {
   return (
-    <section className="mt-24">
+    <section className="mt-36">
       <SectionHeading title="Thematic Areas" />
       <Accordion
         type="single"

@@ -2,7 +2,7 @@ import Hero from '@/components/shared/hero';
 import UpcomingEvents from '@/components/stories/UpcomingEvents';
 
 import AllStories from '@/components/stories/AllStories';
-import img from '@/public/stories.jpg';
+import img from '@/public/stories2.jpg';
 import RecentStories2 from '@/components/stories/RecentStories';
 
 function Stories() {

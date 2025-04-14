@@ -67,7 +67,7 @@ function Hero({
   );
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between gap-12 lg:gap-32 py-28 md:pb-28 md:pt-36 lg:py-36">
+    <div className="flex flex-col md:flex-row items-center justify-between gap-12 lg:gap-32 pt-16 pb-24 md:pt-20 md:pb-28 xl:pb-36">
       <HeroContent />
       <HeroImage />
     </div>

@@ -6,7 +6,7 @@ import { cardData } from '@/lib/data';
 
 function MissionVision() {
   return (
-    <section className="mt-24">
+    <section className="mt-36">
       <SectionHeading title="our mission and vision" />
 
       <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-7">

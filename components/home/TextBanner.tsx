@@ -1,45 +1,11 @@
-"use client";
-import * as React from "react";
-import Hero from "../shared/hero";
-import { homeData } from "@/lib/data";
-
-import Autoplay from "embla-carousel-autoplay";
-
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-
 function TextBanner() {
-  const plugin = React.useRef(
-    Autoplay({ delay: 5000, stopOnInteraction: true })
-  );
   return (
-    <>
-      <Carousel
-        plugins={[plugin.current]}
-        className="w-full min-h-screen"
-        onMouseEnter={plugin.current.stop}
-        onMouseLeave={plugin.current.reset}
-      >
-        <CarouselContent>
-          {homeData.map((home) => (
-            <CarouselItem key={home.id}>
-              <Hero
-                title={home.title}
-                description={home.description}
-                imageSrc={home.image}
-              />
-            </CarouselItem>
-          ))}
-        </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
-      </Carousel>
-    </>
+    <div className="mt-36 flex flex-wrap justify-center items-center p-6 md:p-12 lg:p-20 bg-primary text-white rounded-4xl gap-6 md:gap-10 lg:gap-20">
+      <p className="flex justify-center items-center text-center text-4xl">
+        We Are Harnessing The Power Of Innovation To <br /> Accelerate
+        Development And Transformation In Africa
+      </p>
+    </div>
   );
 }
 

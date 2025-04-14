@@ -25,7 +25,7 @@ export default function AllStoriesClient({
     : stories;
 
   return (
-    <section>
+    <section className="my-36">
       <Heading title="all stories" />
       {tags.length > 0 && (
         <div className="flex flex-wrap gap-2 my-6">
