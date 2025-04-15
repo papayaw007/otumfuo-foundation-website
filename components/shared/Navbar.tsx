@@ -62,9 +62,9 @@ function Navbar() {
             <li>
               <Link
                 href="/"
-                className={`block py-2 px-3 rounded hover:bg-blue-50 md:hover:bg-transparent md:hover:text-primary md:p-0 ${
+                className={`block py-2 px-3 border-b-2 border-white hover:bg-blue-50 md:hover:bg-transparent md:hover:text-primary md:p-0 ${
                   isActive('/')
-                    ? 'text-primary font-bold'
+                    ? 'text-primary font-bold md:border-b-2 md:border-primary'
                     : 'text-gray-900'
                 }`}
                 aria-current={isActive('/') ? 'page' : undefined}>
@@ -74,9 +74,9 @@ function Navbar() {
             <li>
               <Link
                 href="/about"
-                className={`block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ${
+                className={`block py-2 px-3 border-b-2 border-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ${
                   isActive('/about')
-                    ? 'text-primary font-bold'
+                    ? 'text-primary font-bold md:border-b-2 md:border-primary '
                     : 'text-gray-900'
                 }`}>
                 About
@@ -85,9 +85,9 @@ function Navbar() {
             <li>
               <Link
                 href="/stories"
-                className={`block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ${
+                className={`block py-2 px-3 border-b-2 border-white  hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ${
                   isActive('/stories')
-                    ? 'text-primary font-bold'
+                    ? 'text-primary font-bold md:border-b-2 md:border-primary'
                     : 'text-gray-900'
                 }`}>
                 Stories
@@ -96,9 +96,9 @@ function Navbar() {
             <li>
               <Link
                 href="/contact"
-                className={`block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ${
+                className={`block py-2 px-3 border-b-2 border-white hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0 ${
                   isActive('/contact')
-                    ? 'text-primary font-bold'
+                    ? 'text-primary font-bold md:border-b-2 md:border-primary'
                     : 'text-gray-900'
                 }`}>
                 Contact
@@ -107,7 +107,7 @@ function Navbar() {
             <li className="bg-primary px-6 py-2 rounded-md cursor-pointer hover:bg-primary/90 hover:scale-105 transition-all">
               <Link
                 href="/donate"
-                className={`block py-2 px-3 hover:bg-gray-100 md:hover:bg-transparent text-white md:border-0 md:p-0 ${
+                className={`block py-2 px-3 border-b-2 border-white hover:bg-gray-100 md:hover:bg-transparent text-white md:border-0 md:p-0 ${
                   isActive('/contact')
                     ? 'text-primary font-bold'
                     : 'text-gray-900'
